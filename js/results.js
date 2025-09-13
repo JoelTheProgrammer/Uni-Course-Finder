@@ -95,9 +95,9 @@ function cardHTML(c) {
         </div>
       </div>
       <ul class="course-meta">
-        <li><strong data-i18n="results.location">${I18N.t("results.location", "Location")}</strong>: ${c.location}</li>
-        <li><strong data-i18n="results.tuition">${I18N.t("results.tuition", "Tuition")}</strong>: ${tuition}</li>
-        <li><strong data-i18n="results.language">${I18N.t("results.language", "Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
+        <li><strong data-i18n="results.location">📍 ${I18N.t("results.location", "📍 Location")}</strong>: ${c.location}</li>
+        <li><strong data-i18n="results.tuition">💰 ${I18N.t("results.tuition", "💰 Tuition")}</strong>: ${tuition}</li>
+        <li><strong data-i18n="results.language">💬 ${I18N.t("results.language", "💬 Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
       </ul>
       <p class="course-desc">${desc || ""}</p>
       <div class="actions" style="margin-top:12px">

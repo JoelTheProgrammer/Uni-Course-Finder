@@ -8,23 +8,52 @@
   --radius: 16px;
 }
 
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; color: var(--text); background: var(--bg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-
-.container { max-width: 860px; margin: 0 auto; padding: 0 16px; }
-
-.topbar { padding: 16px 0; }
-.lang-switch { display: flex; gap: 8px; justify-content: flex-end; }
-.lang-btn {
-  border: 1px solid #ddd; background: #fff; padding: 6px 10px; border-radius: 10px; cursor: pointer;
+* {
+  box-sizing: border-box;
 }
-.lang-btn.active { border-color: var(--brand); }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--bg);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.topbar {
+  padding: 16px 0;
+}
+
+.lang-switch {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.lang-btn {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.lang-btn.active {
+  border-color: var(--brand);
+}
 
 .card {
   background: var(--card);
   padding: 32px 24px;
   border-radius: var(--radius);
-  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
   margin: 24px auto;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,7 +65,12 @@ h1 {
   color: var(--brand);
   font-family: Arial, Helvetica, sans-serif;
 }
-.sub { margin: 0 0 24px; color: var(--muted); font-size: 18px; }
+
+.sub {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 18px;
+}
 
 .grid {
   display: grid;
@@ -44,16 +78,30 @@ h1 {
   gap: 16px 24px;
 }
 
-.field { display: flex; flex-direction: column; gap: 8px; }
-.field-full { grid-column: 1 / -1; }
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
-label { font-weight: 700; }
-select, textarea, input[type="range"] {
+.field-full {
+  grid-column: 1 / -1;
+}
+
+label {
+  font-weight: 700;
+}
+
+select,
+textarea,
+input[type="range"] {
   width: 100%;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
-select, textarea {
+
+select,
+textarea {
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 12px 14px;
@@ -61,14 +109,52 @@ select, textarea {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.slider-row { display: grid; grid-template-columns: 60px 1fr 60px; align-items: center; gap: 12px; color: var(--muted); }
-#budget { appearance: none; height: 8px; border-radius: 6px; background: #eee; outline: none; }
-#budget::-webkit-slider-thumb { appearance: none; width: 20px; height: 20px; border-radius: 50%; background: var(--brand); cursor: pointer; box-shadow: 0 0 0 4px rgba(176,0,79,.15); }
-#budget::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: var(--brand); border: none; cursor: pointer; }
+.slider-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+}
 
-.budget-output { margin-top: 6px; color: var(--muted); align-self: center;  color:#b0004f;}
+#budget {
+  appearance: none;
+  height: 8px;
+  border-radius: 6px;
+  background: #eee;
+  outline: none;
+}
 
-.actions { margin-top: 8px; }
+#budget::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--brand);
+  cursor: pointer;
+  box-shadow: 0 0 0 4px rgba(176, 0, 79, .15);
+}
+
+#budget::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--brand);
+  border: none;
+  cursor: pointer;
+}
+
+.budget-output {
+  margin-top: 6px;
+  color: var(--muted);
+  align-self: center;
+  color: #b0004f;
+}
+
+.actions {
+  margin-top: 8px;
+}
+
 .cta {
   width: 100%;
   padding: 16px;
@@ -80,13 +166,22 @@ select, textarea {
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
 }
-.cta:hover { background: var(--brand-pressed); }
 
-@media (max-width: 720px) {
-  .grid { grid-template-columns: 1fr; }
+.cta:hover {
+  background: var(--brand-pressed);
 }
 
-.results-list { display: grid; gap: 16px; }
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.results-list {
+  display: grid;
+  gap: 16px;
+}
+
 .course {
   border: 1px solid #eee;
   background: #fff;
@@ -94,13 +189,52 @@ select, textarea {
   padding: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.course-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
-.course-title { margin: 0; font-size: 20px; }
-.course-badges { display: flex; gap: 8px; flex-wrap: wrap; }
-.chip { display: inline-block; padding: 6px 10px; border-radius: 999px; background: #f2f2f6; color: #333; font-size: 13px; border: 1px solid #e6e6ea; }
-.applied { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-.course-meta { list-style: none; margin: 12px 0 0; padding: 0; color: var(--muted); }
-.course-meta li { margin: 4px 0; }
+
+.course-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: start;
+}
+
+.course-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.course-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f2f2f6;
+  color: #333;
+  font-size: 13px;
+  border: 1px solid #e6e6ea;
+ }
+
+.applied {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.course-meta {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  color: var(--muted);
+}
+
+.course-meta li {
+  margin: 4px 0;
+}
 
 .cta-link {
   display: inline-block;
@@ -113,4 +247,33 @@ select, textarea {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
-.cta-link:hover { background: var(--brand-pressed); }
+
+.cta-link-secondary {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border-style: inherit;
+  background: lightgrey;
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cta-link-tertiary {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  border: 2px solid #b0004f;
+  border-radius: 14px;
+  
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cta-link:hover {
+  background: var(--brand-pressed);
+}
