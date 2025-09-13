@@ -4,3 +4,7 @@ To do:
     Business
     Digital Arts
     Foreign Languages
+
+Done
+------------------------------------------------------------------------------------------
+On results page refresh name for fields and degree as well

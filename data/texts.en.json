@@ -15,8 +15,8 @@
     "cta": "See program recommendations"
   },
   "fields": {
-    "business": "Business",
-    "engineering": "Engineering",
+    "business": "Business & Management",
+    "foreign_languages": "Foreign Languages",
     "cs": "Information Technologies",
     "design": "Digital Arts"
   },

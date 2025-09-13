@@ -25,7 +25,7 @@
   {
     "id": "engineering-bachelor-600",
     "name": "Software Engineering",
-    "field": "engineering",
+    "field": "cs",
     "degree": "bachelor",
     "tuition": 2990,
     "location": "Belgrade, RS",
@@ -71,7 +71,7 @@
   {
     "id": "engineering-bachelor-100",
     "name": "Engineering and Operational Management",
-    "field": "engineering",
+    "field": "business",
     "degree": "bachelor",
     "tuition": 2490,
     "location": "Belgrade, RS",
@@ -186,7 +186,7 @@
   {
     "id": "business-bachelor-463",
     "name": "English for Business",
-    "field": "business",
+    "field": "foreign languages",
     "degree": "bachelor",
     "tuition": 2290,
     "location": "Belgrade, RS",
@@ -226,7 +226,7 @@
   {
     "id": "engineering-master-91",
     "name": "INFORMATION TECHNOLOGY AND SYSTEMS\nSpecialization 1: Business Informational Systems ",
-    "field": "engineering",
+    "field": "cs",
     "degree": "master",
     "tuition": 2990,
     "location": "Belgrade, RS",
@@ -241,7 +241,7 @@
   {
     "id": "engineering-master-23",
     "name": "INFORMATION TECHNOLOGY AND SYSTEMS\nSpecialization 2: Cybersecurity",
-    "field": "engineering",
+    "field": "cs",
     "degree": "master",
     "tuition": 2990,
     "location": "Belgrade, RS",
