@@ -1,0 +1,6 @@
+To do:
+- Replace "Engineering" with "Foreign Languages" and make them in this order.
+    IT 
+    Business
+    Digital Arts
+    Foreign Languages

@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title data-i18n="title">Find a program that advances your career</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
   <header class="topbar">
     <div class="container">
@@ -31,18 +33,16 @@
             <option value="business" data-i18n="fields.business">Business</option>
             <option value="engineering" data-i18n="fields.engineering">Engineering</option>
             <option value="cs" data-i18n="fields.cs">Computer Science</option>
-            <option value="design" data-i18n="fields.design">Design</option>
-            <option value="health" data-i18n="fields.health">Health</option>
+            <option value="design" data-i18n="fields.design">Digital Arts</option>
           </select>
         </div>
 
         <div class="field">
           <label for="degree" data-i18n="form.degreeLabel">Degree level</label>
           <select id="degree" name="degree" required>
-            <option value="" disabled selected data-i18n="form.selectDegree">Select your desired degree level</option>
-            <option value="bachelor" data-i18n="degrees.bachelor">Bachelor</option>
-            <option value="master" data-i18n="degrees.master">Master</option>
-            <option value="phd" data-i18n="degrees.phd">PhD</option>
+            <option value="" disabled selected data-i18n="form.selectDegree">Choose a degree level</option>
+            <option value="bachelor" data-i18n="degrees.bachelor">Bachelor's studies</option>
+            <option value="master" data-i18n="degrees.master">Master's studies</option>
           </select>
         </div>
 
@@ -54,13 +54,13 @@
 
         <div class="field field-full">
           <label data-i18n="form.budgetLabel">Tuition budget (annual)</label>
-          <div class="slider-row">
-            <span>€0</span>
-            <input type="range" id="budget" name="budget" min="0" max="5000" step="100" value="2500" />
-            <span>€5,000</span>
-          </div>
           <div class="budget-output">
-            <output id="budgetOut">€2,500</output>
+            <b><output id="budgetOut">€2,500</output></b>
+          </div>
+          <div class="slider-row">
+            <span>€2,000</span>
+            <input type="range" id="budget" name="budget" min="2000" max="4500" step="100" value="2500" />
+            <span>€4,500</span>
           </div>
         </div>
 
@@ -74,4 +74,5 @@
   <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>

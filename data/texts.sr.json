@@ -1,30 +1,28 @@
 {
-  "title": "Pronađi program koji ti unapređuje karijeru",
+  "title": "Pronađi program koji će ti unaprediti karijeru",
   "hero": {
-    "heading": "Pronađi program koji ti unapređuje karijeru",
-    "sub": "Dobij preporuke univerzitetskih programa prema tvojim preferencijama"
+    "heading": "Pronađi program koji će ti unaprediti karijeru",
+    "sub": "Nađi svoj idealan program za 20 sekundi!"
   },
   "form": {
-    "fieldLabel": "Za koje područje si zainteresovan/la?",
-    "selectField": "Izaberi područje interesovanja",
+    "fieldLabel": "Za koju oblast studija si zainteresovan/a?",
+    "selectField": "Izaberi oblast studija",
     "degreeLabel": "Nivo studija",
-    "selectDegree": "Izaberi željeni nivo studija",
-    "goalsLabel": "Koji su tvoji karijerni ciljevi?",
-    "goalsPlaceholder": "Opiši svoje ambicije i šta želiš da postigneš ovim studijama...",
+    "selectDegree": "Izaberi nivo studija",
+    "goalsLabel": "Koji su ti planovi za buduću karijeru?",
+    "goalsPlaceholder": "Kojim poslom bi želeo/la da se baviš?",
     "budgetLabel": "Godišnji budžet za školarinu",
-    "cta": "Prikaži preporučene programe"
+    "cta": "Prikaži programe"
   },
   "fields": {
     "business": "Biznis",
     "engineering": "Inženjerstvo",
-    "cs": "Računarstvo",
-    "design": "Dizajn",
-    "health": "Zdravstvo"
+    "cs": "Informacione tehnologije",
+    "design": "Digitalne umetnosti"
   },
   "degrees": {
     "bachelor": "Osnovne studije",
-    "master": "Master",
-    "phd": "Doktorske studije"
+    "master": "Master studije"
   },
   "results": {
     "title": "Preporuke programa",
@@ -42,7 +40,7 @@
   "requirements": "Uslovi",
   "more": "Više informacija",
   "apply": "Prijavi se",
-  "back": "Nazad na rezultate",
-  "noReqs": "Nema posebnih uslova navedenih."
+  "back": "Natrag na rezultate",
+  "noReqs": "Nema posebnih uslova za ovaj program."
   }
 }

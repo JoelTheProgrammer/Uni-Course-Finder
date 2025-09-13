@@ -26,6 +26,7 @@ html, body { margin: 0; padding: 0; color: var(--text); background: var(--bg); f
   border-radius: var(--radius);
   box-shadow: 0 8px 24px rgba(0,0,0,.06);
   margin: 24px auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -33,6 +34,7 @@ h1 {
   font-size: 34px;
   line-height: 1.2;
   color: var(--brand);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .sub { margin: 0 0 24px; color: var(--muted); font-size: 18px; }
 
@@ -49,12 +51,14 @@ label { font-weight: 700; }
 select, textarea, input[type="range"] {
   width: 100%;
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 select, textarea {
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 12px 14px;
   background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .slider-row { display: grid; grid-template-columns: 60px 1fr 60px; align-items: center; gap: 12px; color: var(--muted); }
@@ -62,7 +66,7 @@ select, textarea {
 #budget::-webkit-slider-thumb { appearance: none; width: 20px; height: 20px; border-radius: 50%; background: var(--brand); cursor: pointer; box-shadow: 0 0 0 4px rgba(176,0,79,.15); }
 #budget::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: var(--brand); border: none; cursor: pointer; }
 
-.budget-output { margin-top: 6px; color: var(--muted); }
+.budget-output { margin-top: 6px; color: var(--muted); align-self: center;  color:#b0004f;}
 
 .actions { margin-top: 8px; }
 .cta {
@@ -74,6 +78,7 @@ select, textarea {
   color: #fff;
   background: var(--brand);
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .cta:hover { background: var(--brand-pressed); }
 
@@ -87,6 +92,7 @@ select, textarea {
   background: #fff;
   border-radius: 14px;
   padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .course-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
 .course-title { margin: 0; font-size: 20px; }
@@ -105,5 +111,6 @@ select, textarea {
   background: var(--brand);
   color: #fff;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .cta-link:hover { background: var(--brand-pressed); }

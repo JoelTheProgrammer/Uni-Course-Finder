@@ -8,7 +8,7 @@
     "fieldLabel": "What field are you interested in?",
     "selectField": "Select your field of interest",
     "degreeLabel": "Degree level",
-    "selectDegree": "Select your desired degree level",
+    "selectDegree": "Please choose a degree level",
     "goalsLabel": "What are your career goals?",
     "goalsPlaceholder": "Describe your career aspirations and what you hope to achieve with this degree...",
     "budgetLabel": "Tuition budget (annual)",
@@ -17,14 +17,12 @@
   "fields": {
     "business": "Business",
     "engineering": "Engineering",
-    "cs": "Computer Science",
-    "design": "Design",
-    "health": "Health"
+    "cs": "Information Technologies",
+    "design": "Digital Arts"
   },
   "degrees": {
-    "bachelor": "Bachelor",
-    "master": "Master",
-    "phd": "PhD"
+    "bachelor": "Bachelor's degree",
+    "master": "Master's degree"
   },
   "results": {
     "title": "Program recommendations",
@@ -37,13 +35,12 @@
     "language": "Language"
   },
   "detail": {
-  "title": "Program details",
-  "description": "About this program",
-  "requirements": "Requirements",
-  "more": "More information",
-  "apply": "Apply now",
-  "back": "Back to results",
-  "noReqs": "No specific requirements listed."
+    "title": "Program details",
+    "description": "About this program",
+    "requirements": "Requirements",
+    "more": "More information",
+    "apply": "Apply now",
+    "back": "Back to results",
+    "noReqs": "No specific requirements listed."
   }
 }
-
