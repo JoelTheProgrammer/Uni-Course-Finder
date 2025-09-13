@@ -1,0 +1,41 @@
+{
+  "title": "Find a program that advances your career",
+  "hero": {
+    "heading": "Find a program that advances your career",
+    "sub": "Get personalized university program recommendations based on your preferences"
+  },
+  "form": {
+    "fieldLabel": "What field are you interested in?",
+    "selectField": "Select your field of interest",
+    "degreeLabel": "Degree level",
+    "selectDegree": "Select your desired degree level",
+    "goalsLabel": "What are your career goals?",
+    "goalsPlaceholder": "Describe your career aspirations and what you hope to achieve with this degree...",
+    "budgetLabel": "Tuition budget (annual)",
+    "cta": "See program recommendations"
+  },
+  "fields": {
+    "business": "Business",
+    "engineering": "Engineering",
+    "cs": "Computer Science",
+    "design": "Design",
+    "health": "Health"
+  },
+  "degrees": {
+    "bachelor": "Bachelor",
+    "master": "Master",
+    "phd": "PhD",
+    "certificate": "Certificate"
+  },
+  "results": {
+    "title": "Program recommendations",
+    "heading": "Program recommendations",
+    "sub": "Based on your preferences",
+    "back": "Change preferences",
+    "empty": "No programs match your preferences. Try a higher budget or broader field.",
+    "location": "Location",
+    "tuition": "Tuition",
+    "language": "Language"
+  }
+}
+

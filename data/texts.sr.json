@@ -1,0 +1,40 @@
+{
+  "title": "Pronađi program koji ti unapređuje karijeru",
+  "hero": {
+    "heading": "Pronađi program koji ti unapređuje karijeru",
+    "sub": "Dobij preporuke univerzitetskih programa prema tvojim preferencijama"
+  },
+  "form": {
+    "fieldLabel": "Za koje područje si zainteresovan/la?",
+    "selectField": "Izaberi područje interesovanja",
+    "degreeLabel": "Nivo studija",
+    "selectDegree": "Izaberi željeni nivo studija",
+    "goalsLabel": "Koji su tvoji karijerni ciljevi?",
+    "goalsPlaceholder": "Opiši svoje ambicije i šta želiš da postigneš ovim studijama...",
+    "budgetLabel": "Godišnji budžet za školarinu",
+    "cta": "Prikaži preporučene programe"
+  },
+  "fields": {
+    "business": "Biznis",
+    "engineering": "Inženjerstvo",
+    "cs": "Računarstvo",
+    "design": "Dizajn",
+    "health": "Zdravstvo"
+  },
+  "degrees": {
+    "bachelor": "Osnovne studije",
+    "master": "Master",
+    "phd": "Doktorske studije",
+    "certificate": "Sertifikat"
+  },
+  "results": {
+    "title": "Preporuke programa",
+    "heading": "Preporuke programa",
+    "sub": "Na osnovu tvojih preferencija",
+    "back": "Promeni preferencije",
+    "empty": "Nema rezultata za ove filtere. Probaj sa većim budžetom ili širim područjem.",
+    "location": "Lokacija",
+    "tuition": "Školarina",
+    "language": "Jezik"
+  }
+}

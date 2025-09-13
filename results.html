@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="results.title">Program recommendations</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="sr">SR</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card container">
+      <h1 data-i18n="results.heading">Program recommendations</h1>
+      <p class="sub" data-i18n="results.sub">Based on your preferences</p>
+
+      <div id="applied" class="applied"></div>
+
+      <div id="results" class="results-list" aria-live="polite"></div>
+
+      <div class="actions field-full" style="margin-top:24px">
+        <a href="index.html" class="cta-link" data-i18n="results.back">Change preferences</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/results.js"></script>
+</body>
+</html>

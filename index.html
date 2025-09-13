@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="title">Find a program that advances your career</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="lang-switch">
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="sr">SR</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card container">
+      <h1 data-i18n="hero.heading">Find a program that advances your career</h1>
+      <p class="sub" data-i18n="hero.sub">
+        Get personalized university program recommendations based on your preferences
+      </p>
+
+      <form id="finderForm" class="grid">
+        <div class="field">
+          <label for="field" data-i18n="form.fieldLabel">What field are you interested in?</label>
+          <select id="field" name="field" required>
+            <option value="" disabled selected data-i18n="form.selectField">Select your field of interest</option>
+            <option value="business" data-i18n="fields.business">Business</option>
+            <option value="engineering" data-i18n="fields.engineering">Engineering</option>
+            <option value="cs" data-i18n="fields.cs">Computer Science</option>
+            <option value="design" data-i18n="fields.design">Design</option>
+            <option value="health" data-i18n="fields.health">Health</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="degree" data-i18n="form.degreeLabel">Degree level</label>
+          <select id="degree" name="degree" required>
+            <option value="" disabled selected data-i18n="form.selectDegree">Select your desired degree level</option>
+            <option value="bachelor" data-i18n="degrees.bachelor">Bachelor</option>
+            <option value="master" data-i18n="degrees.master">Master</option>
+            <option value="phd" data-i18n="degrees.phd">PhD</option>
+            <option value="certificate" data-i18n="degrees.certificate">Certificate</option>
+          </select>
+        </div>
+
+        <div class="field field-full">
+          <label for="goals" data-i18n="form.goalsLabel">What are your career goals?</label>
+          <textarea id="goals" name="goals" rows="4" data-i18n-placeholder="form.goalsPlaceholder"
+            placeholder="Describe your career aspirations and what you hope to achieve with this degree..."></textarea>
+        </div>
+
+        <div class="field field-full">
+          <label data-i18n="form.budgetLabel">Tuition budget (annual)</label>
+          <div class="slider-row">
+            <span>€0</span>
+            <input type="range" id="budget" name="budget" min="0" max="5000" step="100" value="2500" />
+            <span>€5,000</span>
+          </div>
+          <div class="budget-output">
+            <output id="budgetOut">€2,500</output>
+          </div>
+        </div>
+
+        <div class="actions field-full">
+          <button class="cta" type="submit" data-i18n="form.cta">See program recommendations</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
