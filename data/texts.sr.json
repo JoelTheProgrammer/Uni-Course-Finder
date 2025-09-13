@@ -24,8 +24,7 @@
   "degrees": {
     "bachelor": "Osnovne studije",
     "master": "Master",
-    "phd": "Doktorske studije",
-    "certificate": "Sertifikat"
+    "phd": "Doktorske studije"
   },
   "results": {
     "title": "Preporuke programa",
@@ -36,5 +35,14 @@
     "location": "Lokacija",
     "tuition": "Školarina",
     "language": "Jezik"
+  },
+  "detail": {
+  "title": "Detalji programa",
+  "description": "O programu",
+  "requirements": "Uslovi",
+  "more": "Više informacija",
+  "apply": "Prijavi se",
+  "back": "Nazad na rezultate",
+  "noReqs": "Nema posebnih uslova navedenih."
   }
 }

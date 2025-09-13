@@ -95,6 +95,9 @@ function cardHTML(c) {
         <li><strong data-i18n="results.language">${I18N.t("results.language", "Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
       </ul>
       <p class="course-desc">${desc || ""}</p>
+      <div class="actions" style="margin-top:12px">
+        <a href="detail.html?id=${c.id}" class="cta-link" data-i18n="results.more">View details</a>
+      </div>
     </article>
   `;
 }

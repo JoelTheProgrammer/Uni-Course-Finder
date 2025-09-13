@@ -24,8 +24,7 @@
   "degrees": {
     "bachelor": "Bachelor",
     "master": "Master",
-    "phd": "PhD",
-    "certificate": "Certificate"
+    "phd": "PhD"
   },
   "results": {
     "title": "Program recommendations",
@@ -36,6 +35,15 @@
     "location": "Location",
     "tuition": "Tuition",
     "language": "Language"
+  },
+  "detail": {
+  "title": "Program details",
+  "description": "About this program",
+  "requirements": "Requirements",
+  "more": "More information",
+  "apply": "Apply now",
+  "back": "Back to results",
+  "noReqs": "No specific requirements listed."
   }
 }
 
