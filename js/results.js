@@ -1,5 +1,6 @@
 // js/results.js
 let filtered = []; // make this global so we can re-render later
+let chosen = {};   // also global so we can re-render chips later
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Load language first so UI strings render correctly.
@@ -10,19 +11,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Read filters from the query string.
   const params = new URLSearchParams(location.search);
-  const chosen = {
+  chosen = {
     field: params.get("field") || "",
     degree: params.get("degree") || "",
     budget: Number(params.get("budget") ?? Number.MAX_SAFE_INTEGER)
   };
 
-  // Show applied filters as chips.
-  const applied = document.getElementById("applied");
-  const chips = [];
-  if (chosen.field) chips.push(`<span class="chip">${I18N.t(`fields.${chosen.field}`, chosen.field)}</span>`);
-  if (chosen.degree) chips.push(`<span class="chip">${I18N.t(`degrees.${chosen.degree}`, chosen.degree)}</span>`);
-  if (isFinite(chosen.budget)) chips.push(`<span class="chip">≤ €${chosen.budget.toLocaleString()}</span>`);
-  applied.innerHTML = chips.join("");
+  renderChips(chosen);
 
   // Load courses and filter.
   let all = [];
@@ -55,9 +50,19 @@ document.querySelectorAll(".lang-btn").forEach(btn => {
     if (typeof I18N?.load === "function") {
       await I18N.load(lang);
     }
+    renderChips(chosen);     // redraw chips in new language
     renderResults(filtered); // redraw cards with new desc
   });
 });
+
+function renderChips(chosen) {
+  const applied = document.getElementById("applied");
+  const chips = [];
+  if (chosen.field) chips.push(`<span class="chip">${I18N.t(`fields.${chosen.field}`, chosen.field)}</span>`);
+  if (chosen.degree) chips.push(`<span class="chip">${I18N.t(`degrees.${chosen.degree}`, chosen.degree)}</span>`);
+  if (isFinite(chosen.budget)) chips.push(`<span class="chip">≤ €${chosen.budget.toLocaleString()}</span>`);
+  applied.innerHTML = chips.join("");
+}
 
 function renderResults(items) {
   const wrap = document.getElementById("results");
