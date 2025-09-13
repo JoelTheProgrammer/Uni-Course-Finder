@@ -7,10 +7,18 @@
     "tuition": 2990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/osnovne-studije/fakultet-informacionih-tehnologija/informacione-tehnologije/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: mathematics test",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: test iz matematike",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "Information technology encompasses all practical aspects of computing, except its hardware. It studies system infrastructure, software methods and technologies, as well as applied technologies, as well as organizational and system issues of IT users. Due to the greater emphasis on application, the theoretical aspects of these areas of computing are not studied to a significant extent. The field covered by the discipline of Information Technology partially overlaps with other computer disciplines, but graduates of IT programs are more focused on meeting the needs of people related to the application of computer technologies. In the part of technology applications, the area covered by IT goes furthest to the left, i.e. towards theory and innovation. This is shown in cases where IT engineers develop digital technologies with web capabilities, which organizations use for a wide range of their information needs, requiring a certain conceptual foundation in relevant principles and theory. IT programs typically produce graduates who know how to apply IT across a wide range of applications. Organizations of all types today depend on a networked computing infrastructure to such an extent that they can no longer operate without it. IT engineers are trained to select, manage, and maintain this infrastructure, ensuring that it meets the organization's needs. They also create digital content for this infrastructure and provide IT support to the individuals who use it.",
     "sr_desc": "Informacione tehnologije obuhvata sve praktične aspekte računarstva, sem njegovog hardvera. Proučava se i sistemska infrastruktura, i softverske metode i tehnologije, ali i primenjene tehnologije, kao i organizaciona i sistemska pitanja korisnika IT. Zbog većeg naglaska na primenu, ne izučavaju se značajnije teorijski aspekti ovih područja računarstva. Polje koje pokriva disciplina Informacione tehnologije, delimično se preklapa sa drugim računarskim disciplinama, ali diplomirani studenti programa IT se više usmeravaju ka zadovoljavanju potreba ljudi vezanih za primenu računarskih tehnologija. U delu primena tehnologija, oblast koju pokriva IT ide najdalje ulevo, tj. ka teoriji i inovacijama. To se pokazuje u slučajevima kada inženjeri IT razvijaju digitalne tehnologije sa veb mogućnostima, a koje organizacije koriste za široki spektar svojih informacijskih potreba, pri čemu je potrebna određena koncepcijska osnova u relevantnim principima i u teoriji. Programi iz IT-a, po pravilu, proizvode diplomirane studente koji znaju kako da se IT primeni u širokom području njene primene. Organizacije bilo koje vrste danas zavise od umrežene računarske infrastrukture u takvom nivou da više ne mogu da rade bez ove infrastrukture. IT inženjeri su pripremljeni da izaberu, upravljaju i održavaju ovu infrastrukturu, osiguravajući da ona ostvaruje potrebe organizacije. Oni, takođe, kreiraju digitalni sadržaj za ovu infrastrukturu i brinu se o davanju IT podrške, pojedincima koji je koriste."
   },
@@ -22,10 +30,18 @@
     "tuition": 2990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/osnovne-studije/fakultet-informacionih-tehnologija/softversko-inzenjerstvo/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: mathematics test",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: test iz matematike",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "The goal of the \"Software Engineering\" study program is to enable the student to successfully engage in professional software development, in accordance with the expectations and needs of companies engaged in professional software development. The study program provides knowledge in the field of software engineering, according to IEEE and ACM categorizations. Teaching not only enables the acquisition of knowledge from all phases of the software development process, but also ensures the acquisition of fundamental knowledge in computer science, which is necessary for anyone who wants to engage in software development. The program emphasizes the acquisition of practical and applicable knowledge and skills. Practical projects and a large number of tasks are done in each subject. Upon completion of studies, the student is fully qualified for successful work in the software industry.",
     "sr_desc": "Cilj studijskog programa „Softversko inženjerstvo“ je da osposobi studenta da se uspešno bavi profesionalnim razvojem softvera, u skladu sa očekivanjima i potrebama kompanija koje se bave profesionalnim razvojem softvera. Studijski program obezbeđuje znanja iz oblasti softverskog inženjerstva, prema kategorizacijama IEEE i ACM. Nastava ne samo da omogućuje sticanje znanja iz svih faza procesa razvoja softvera, nego i obezbeđuje sticanje fundamentalnih znanja iz računarskih nauka, što je neophodno svakome ko želi da se bavi razvojem softvera. U programu se daje naglasak na sticanje praktičnih i primenjivih znanja i veština. Iz svakog predmeta se rade praktični projekti i veliki broj zadataka. Po završetku studija, student je potpuno osposobljen za uspešan rad u softverskoj industriji."
   },
@@ -37,10 +53,18 @@
     "tuition": 2990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/osnovne-studije/fakultet-informacionih-tehnologija/razvoj-video-igara/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: mathematics test",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: test iz matematike",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "The main purpose of the study program Video Game Development is to provide competent personnel who have sufficient knowledge and skills necessary for the challenging and highly valued field of video game development (with an emphasis on programming and fundamentals of video game design). The video game development industry is very developed in the world (bigger than the film industry), and in Serbia there is a sharp increase in the number of domestic companies, which therefore provides great employment opportunities. Students in this degree program go beyond the traditional approach of software development to gain expertise in the field of creative game design as well. They also deal with the practicalities of game programming, but at the same time are fully involved in the entire game production process, from pre-production to the finished product.",
     "sr_desc": "Osnovna svrha studijskog programa Razvoj video igara je da obezbedi kompetentan kadar koji ima dovoljno znanja i veština neophodnih za izazovno i veoma cenjeno polje razvoja video igara (sa naglaskom na programiranje i osnove dizajna video igara). Industrija razvoja video igara je veoma razvijena u svetu (veća od filmske industrije), a u Srbiji se beleži nagli porast broja domaćih firmi, te stoga pruža velike mogućnosti zapošljavanja. Studenti u okviru ovog studijskog programa prevazilaze tradicionalni pristup razvoja softvera kako bi stekli stručnost i u oblasti kreativnog dizajniranja igara. Takođe se bave praktičnim stvarima iz oblasti programiranja igara, ali istovremeno u potpunosti učestvuju u celom procesu proizvodnje igara, od predprodukcije do gotovog proizvoda."
   },
@@ -52,10 +76,18 @@
     "tuition": 2490,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/osnovne-studije/fakultet-za-menadzment/inzenjerski-i-operacioni-menadzment/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: business case study",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: studija biznis slučaja",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "Engineering and operational management is the understanding of the role and application of techniques and methods of operational management, which represents the key level of management in the organization. Operations management provides an understanding of the planning, organization and management of business processes of procurement, production, sales, distribution, service provision, quality management, resources, innovation and others. Each organization has its own operational (business or production) function because each organization, whether it is profit-oriented as a business or non-profit, produces some kind of product or service. The operational function has a central place, that is, a key importance in organizations, because it ensures the production of goods and services, which are why these organizations exist. Therefore, it is necessary to study the field of operations management which is responsible for satisfying customer requirements by ensuring effective and efficient delivery of products or services.",
     "sr_desc": "Inženjerski i operacioni menadžment je razumevanje uloge i primena tehnika i metoda operacionog menadžmenta koji predstavlja ključni nivo menadžmenta u organizaciji. Operacioni menadžment obezbeđuje razumevanje planiranja, organizacije i upravljanja poslovnim procesima nabavke, proizvodnje, prodaje, distribucije, pružanja usluga, upravljanja kvalitetom, resursima, inovacijama i drugog. Svaka organizacija ima svoju operacionu (poslovnu ili proizvodnu) funkciju jer svaka organizacija, bilo da je profitno orijentisana kao preduzeće ili da je neprofitna proizvodi neku vrstu proizvoda ili usluga. Operaciona funkcija ima centralno mesto, odnosno ključni značaj u organizacijama, jer obezbeđuje proizvodnju roba i usluga, zbog kojih i postoje te organizacije. Stoga je neophodno proučavati oblast operacionog menadžmenta koja je odgovorna za zadovoljenje zahteva kupca time što će obezbediti efektivnu i efikasnu isporuku proizvoda ili usluga."
   },
@@ -67,10 +99,18 @@
     "tuition": 2490,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/osnovne-studije/fakultet-za-menadzment/digitalni-biznis-i-marketing/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: business case study",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: studija biznis slučaja",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "The main goal of the study program is the education of a modern, \"digitally literate\" and capable manager to perform business tasks and functions professionally and successfully in the conditions of a digital environment. In this sense, the goal of the study program is to provide the necessary general knowledge and skills in the field of management (digital business), which every manager should possess, and to enable quality and comprehensive education in the field of marketing, sales and human resources. One of the focuses of the Digital Business and Marketing Bachelor's program is the field of marketing. Students should acquire complete and applicable specific knowledge in this area, which will enable them to successfully perform all tasks that the marketing function has in modern organizations. This includes studying the principles of marketing, understanding the role of marketing in product development, market research and analysis, studying and understanding consumer behavior, establishing integrated marketing communications with potential customers, how to use digital marketing, i.e. mobile devices and web systems for marketing purposes, creation, development and maintenance of a product or company brand, planning of marketing activities and management of marketing in organizations, advertising and communication with the public, etc.",
     "sr_desc": "Osnovni cilj studijskog programa je obrazovanje savremenog, „digitalno pismenog“ i sposobnog menadžera da u uslovima digitalnog okruženja, profesionalno i sa uspehom obavlja poslovne zadatke i funkcije. U tom smislu cilj studijskog programa je da obezbedi neophodna opšta znanja i veštine iz oblasti menadžmenta (digitalnog biznisa), koja svaki menadžer treba da poseduje i omogući kvalitetno i sveobuhvatno uže usmeravanje obrazovanja u oblasti marketinga, prodaje i ljudskih potencijala. Jedan od ciljeva programa osnovnih studija Digitalni biznis i marketing je sa fokusom na obrazovanje u oblasti marketinga. Studenti treba da steknu potpuna i primenljiva specifična znanja iz ove oblasti, što će im omogućiti da uspešno obavljaju sve poslove koje funkcija marketinga ima u savremenim organizacijama. To obuhvata izučavanja principa marketinga, razumevanje uloge marketinga u razvoju proizvoda, istraživanja i analizu tržišta, proučavanje i razumevanje ponašanja potrošača, uspostavljanje integrisanih marketinških komunikacija sa potencijalnim kupcima, način korišćenja digitalnog marketinga, tj. mobilnih uređaja i veb sistema za potrebe marketinga, kreiranje, razvoj i održavanje brenda proizvoda ili firme, planiranje marketing aktivnosti i upravljanje poslovima marketinga u organizacijama, oglašavanja i komunikacije s javnošću i dr."
   },
@@ -82,10 +122,18 @@
     "tuition": 3990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/fakultet-digitalnih-umetnosti-2/graficki-dizajn/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: still life drawing with charcoal on paper",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: crtanje mrtve prirode ugljenom na papiru",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "Graduates are qualified to successfully deal with professional design solutions, in accordance with the expectations and needs of the market and employers. Graphic designers, students who successfully obtained their education at the Metropolitan University, are capable of independent artistic activity and are offered the opportunity to work in design studios, production and media companies, marketing agencies, fashion houses, cultural institutions and publishing houses. In recent years, due to outsourcing, there is an increasing number of graphic designers who successfully build their careers by working independently, as freelancers.",
     "sr_desc": "Diplomirani studenti su kvalifikovani da se uspešno bave profesionalnim dizajnerskim rešenjima, u skladu sa očekivanjima i potrebama tržišta i poslodavaca. Grafički dizajneri, studenti koji su sa uspehom svoje obrazovanje stekli na Univerzitetu Metropolitan, sposobni su za samostalno umetničko delovanje i pruža im se mogućnost zaposlenja u dizajn studijima, produkcijskim i medijskim kućama, marketinškim agencijama, modnim kućama, institucijama kulture i izdavačkim kućama. Poslednjih godina je zbog outsourcing-a sve veći broj grafičkih dizajnera koji svoju karijeru uspešno grade samostalnim radom, kao freelancer-i."
   },
@@ -97,10 +145,18 @@
     "tuition": 3990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/fakultet-digitalnih-umetnosti-2/dizajn-interaktivnih-medija/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: still life drawing with charcoal on paper",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: crtanje mrtve prirode ugljenom na papiru",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "Students of Interactive Media Design gain knowledge about the technological and aesthetic features and possibilities of web design and animation, as well as computer game design, but also about all segments of the process of creating an animated film and short animated forms. They are also qualified for leading and technical improvement of internet marketing campaigns, conceptual and structural creation of visual identity in the web space. Also, students learn how to solve complex tasks in the field of interactive design in various new media environments, such as advanced use of video, 3D video game creation, sound processing and application, application interface design, corporate interactive interface design, character and environment design for video games.",
     "sr_desc": "Studenti Dizajna interaktivnih medija stiču znanja o tehnološkim i estetskim osobinama i mogućnostima veb dizajna i animacije, kao i dizajna računarskih igara, ali i o svim segmentima procesa kreiranja animiranog filma i kratkih animiranih formi. Osposobljeni su i za vođenje i tehničko unapređenje internet marketing kampanja, konceptualno i strukturalno kreiranje vizuelnog identiteta u veb prostoru. Takođe, studenti uče kako da rešavaju kompleksne zadatake na polju interaktivnog dizajna u različitim novomedijskim okruženjima, kao što su napredna upotreba videa, izrada 3D video igara, obrada i primena zvuka, aplikativni interfejs dizajn, korporativni interaktivni interfejs dizajn, dizajn karaktera i okruženja za video igre."
   },
@@ -112,10 +168,18 @@
     "tuition": 4290,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/fakultet-digitalnih-umetnosti-2/modni-dizajn/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Entrance exam: still life drawing with charcoal on paper",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Prijemni ispit: crtanje mrtve prirode ugljenom na papiru",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "The Fashion Design program is intended for those who want to translate their interests in this part of applied art, as well as their creativity and talent into visual forms that will at the same time have artistic value, but also application in the fashion industry itself and its wide range of activities. Students will understand the importance of communication and critical thinking in a global industry. The studies are designed to be both a challenge and an inspiration, combining artistic, technical and theoretical elements and a realistic approach to the fashion industry.",
     "sr_desc": "Program Modni dizajn je namenjen onima koji žele da svoja interesovanja za ovaj deo primenjene umetnosti, kao i svoju kreativnost i talenat pretoče u vizuelne forme koje će u isto vreme imati umetničku vrednost, ali i primenu u samoj modnoj industriji i njenom širokom spektru delovanja. Studenti će razumeti značaj komunikacije i kritičkog razmišljanja po pitanju globalne industrije. Studije su napravljene tako da ujedno budu i izazov, ali i inspiracija spajajući umetničke, tehničke i teorijske elemente i realističan pristup modnoj industriji. "
   },
@@ -127,10 +191,16 @@
     "tuition": 2290,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/engleski-jezik-u-biznisu/",
+    "apply_link": "https://www.metropolitan.ac.rs/osnovne-studije/upis/",
+    "en_req": [
+      "High school diploma",
+      "Interview with the application committee"
+    ],
+    "sr_req": [
+      "Diploma srednje škole",
+      "Intervju sa komisijom"
+    ],
     "en_desc": "Command of the English language in a business context is of crucial importance. This program is tailored to students who aspire to become communication experts and leaders in the business world. The study program was created to meet the needs of the modern labor market, providing students with not only English language skills, but also practical skills in digital marketing, international business and effective business communication. Through studies of the English language in business, a comprehensive understanding of the English language in its linguistic, literary and cultural aspects is achieved. Through the integration of language abilities and communication skills, the program prepares students for the complex demands of the global market and intercultural interactions. Through a curriculum that includes linguistics, literature, translation and digital business, students develop a wide range of skills that are in demand in various sectors such as education, media, diplomacy and business management. Through elective courses, students acquire qualifications necessary for intercultural understanding such as French and German and for various jobs in the field of digital business and marketing that necessarily integrate knowledge of the English language. Through practical exercises, student projects and research assignments, students acquire skills that can be used in their academic, professional and personal lives.",
     "sr_desc": "Vladanje engleskim jezikom u poslovnom kontekstu je od ključnog značaja. Ovaj program je prilagođen studentima, koji teže da postanu stručnjaci za komunikaciju i lideri u svetu biznisa. Studijski program je kreiran tako da zadovolji potrebe modernog tržišta rada, pružajući studentima ne samo znanje engleskog jezika, već i praktične veštine u digitalnom marketingu, međunarodnom poslovanju i efikasnoj poslovnoj komunikaciji. Kroz studije Engleskog jezika u biznisu postiže se sveobuhvatno razumevanje engleskog jezika u njegovim lingvističkim, književnim i kulturnim aspektima. Kroz integraciju jezičkih sposobnosti i komunikacijskih veština, program priprema studente za složene zahteve globalnog tržišta i interkulturalne interakcije. Kroz kurikulum koji obuhvata lingvistiku, književnost, prevođenje i digitalno poslovanje, studenti razvijaju širok spektar veština koje su tražene u raznim sektorima kao što su obrazovanje, mediji, diplomatija i poslovno upravljanje. Kroz izborne predmete studenti stiču kvalifikacije neophodne za interkulturalno razumevanje kao što je francuski i nemački jezik i za različite poslove u oblasti digitalnog biznisa i marketinga koji nužno integrišu znanja engleskog jezika. Kroz praktične vežbe, studentske projekte i istraživačke zadatke, studenti stiču veštine koje im mogu koristiti u akademskom, profesionalnom i ličnom životu."
   },
@@ -142,10 +212,14 @@
     "tuition": 2990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/master-studije/inteligentni-i-napredni-softverski-sistemi/",
+    "apply_link": "https://www.metropolitan.ac.rs/master-studije/upis/",
+    "en_req": [
+      "Bachelor's degree in Information Technology, Software Engineering or adjacent field"
+    ],
+    "sr_req": [
+      "Diploma osnovnih studija iz oblasti informacionih tehnologija i/ili softverskog inžinjerstva"
+    ],
     "en_desc": "Software engineering is related to process and quality management, to creativity and innovation, to standards, to the individual skills of individuals, but also to the ability of teamwork and the application of rules and experience from professional practice. The Master's program Intelligent and Advanced Software Systems educates students to work on the development of professional software of industrial quality. Software engineering is a discipline that deals with the development and maintenance of reliable and efficient software systems. Software engineering, as a master's program, aims to educate master software engineers, for whom there is a great need in the labor market. The study program ensures the acquisition of competencies that are socially justifiable and useful and are in line with the tasks and goals of the University, where the study program is conducted. The purpose of the study program is the ability to rationally and professionally perform various practical jobs and tasks related to the profession, the outcome of which is the determination of needs and requirements, the satisfaction of which ensures the full functionality of the software while defining all software modules and components with the design of the software system.",
     "sr_desc": "Softversko inženjerstvo se vezuje za upravljanje procesom i kvalitetom, za kreativnost i inovacije, za standarde, za individualne veštine pojedinaca, ali i za sposobnost timskog rada i primenu pravila i iskustva iz profesionalne prakse. Master program Ingeligentni i napredni softverski sistemi obrazuje studente da rade na razvoju profesionalnog softvera industrijskog kvaliteta. Softversko inženjerstvo je disciplina koja se bavi razvojem i održavanjem pouzdanih i efikasnih softverskih sistema. Softversko inženjerstvo, kao master program, ima za cilј školovanje master inženjera softvera za kojima postoji velika potreba na tržištu rada. Studijski program obezbeđuje sticanje kompetencija koje su društveno opravdane i korisne i u skladu su sa zadacima i cilјevima Univerziteta, na kome se studijski program i izvodi. Svrha studijskog programa je osposoblјenost za racionalno i stručno obavlјanje različitih praktičnih poslova i zadataka koji su povezani sa strukom, a čiji je ishod utvrđivanje potreba i zahteva čije zadovolјenje obezbeđuje punu funkcionalnost softvera uz definisanje svih softverskih modula i komponenata sa projektovanjem softverskog sistema."
   },
@@ -187,10 +261,14 @@
     "tuition": 2990,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/master-studije/digitalni-biznis/",
+    "apply_link": "https://www.metropolitan.ac.rs/master-studije/upis/",
+    "en_req": [
+      "Bachelor's degree in Business, Management, Marketing or adjacent field"
+    ],
+    "sr_req": [
+      "Diploma osnovnih studija iz biznisa, menadžmenta, marketinga ili slične oblasti"
+    ],
     "en_desc": "The goal of the Digital Business master's program is to educate experts who possess the necessary theoretical and practical knowledge, skills and competencies in the field of digital business, operations management, digital marketing, strategic management and other related areas necessary for successful future work. The program is focused on knowledge and skill development at both strategic and operational levels in the areas of digital transformation, digital business, global operations, digital supply chains, marketing communications, service marketing, entrepreneurial finance and strategic management. The Master's program Digital Business deals specifically with the managerial aspects of business in digital marketing and operations management and directs the student to acquire knowledge that demonstrates the application of theoretical concepts in specific areas of application. The Master's program Digital Business is designed to provide in-depth knowledge of key aspects of digital business, operations management and marketing.",
     "sr_desc": "Cilj master programa Digitalni biznis je da obrazuje stručnjake koji poseduju potrebna teorijska i praktična znanja, veštine i kompetencije iz oblasti digitalnog poslovanja, upravljanja operacijama, digitalnog marketinga, strateškog menadžmenta i drugih srodnih oblasti neophodnih za uspešan budući rad. Program je usresređen na znanje i razvoj veština i na strateškom i na operativnom nivou u oblasti digitalne transformacije, digitalnog poslovanja, globalnih operacija, digitalnih lanaca snabdevanja, marketinških komunikacija, marketinga usluga, finansiranja preduzetništva i strateškog menadžmenta. Master program Digitalni biznis se posebno bavi menadžerskim aspektima poslovanja u digitalnom marketingu i upravljanju operacijama i upućuje studenta na sticanje znanja koja pokazuju primenu teorijskih koncepata u određenim područjima primene. Master program Digitalni biznis je kreiran tako da obezbedi dublja znanja o ključnim aspektima digitalnog poslovanja, upravljanja operacijama i marketinga."
   },
@@ -217,10 +295,14 @@
     "tuition": 4500,
     "location": "Belgrade, RS",
     "language": "sr",
-    "info_link": "",
-    "apply_link": "",
-    "en_req": "",
-    "sr_req": "",
+    "info_link": "https://www.metropolitan.ac.rs/master-studije/muzicka-produkcija/",
+    "apply_link": "https://www.metropolitan.ac.rs/master-studije/upis/",
+    "en_req": [
+      "Bachelor's degree in Music, Music Production, or adjacent field"
+    ],
+    "sr_req": [
+      "Diploma osnovnih studija iz muzičke produkcije ili slične oblasti"
+    ],
     "en_desc": "The goal of Music Production Master's program is the improved training of students for independent, creative and professional work in the field of music production. The program includes the creation of musical content for autonomous works of authorship, film, television, social networks and music services. The program enables students to solve complex problems in music production, lead and organize teams within creative projects. Through professional courses, students develop the technical, creative and entrepreneurial skills needed for a successful career in the music industry. MAS Music Production is fully aligned with the basic tasks and goals of the Metropolitan University, as well as with contemporary trends in the development of applied art in Europe and the world. The program meets the needs of students who want to acquire knowledge in marketing and music production, based on modern technological processes and market requirements.",
     "sr_desc": "Cilj master programa Muzička produkcija je unapređeno osposobljavanje studenata za samostalan, kreativan i stručan rad u oblasti muzičke produkcije. Program obuhvata kreiranje muzičkog sadržaja za autonomna autorska dela, film, televiziju, društvene mreže i muzičke servise. Program omogućava studentima da rešavaju kompleksne probleme u muzičkoj produkciji, vode i organizuju timove unutar kreativnih projekata. Kroz stručne predmete, studenti razvijaju tehničke, kreativne i preduzetničke veštine potrebne za uspešnu karijeru u muzičkoj industriji. MAS Muzička produkcija u potpunosti je usklađen sa osnovnim zadacima i ciljevima Univerziteta Metropolitan, kao i sa savremenim pravcima razvoja primenjene umetnosti u Evropi i svetu. Program odgovara potrebama studenata koji žele da steknu znanja iz marketinga i muzičke produkcije, zasnovana na savremenim tehnološkim procesima i zahtevima tržišta. "
   }
