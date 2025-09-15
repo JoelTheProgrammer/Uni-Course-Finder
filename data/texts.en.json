@@ -42,6 +42,12 @@
     "more": "More information",
     "apply": "Apply now",
     "back": "Back to results",
-    "noReqs": "No specific requirements listed."
+    "noReqs": "No specific requirements listed.",
+    "jobs": "Possible career paths",
+    "noJobs": "No jobs listed.",
+    "fit": "Why this course could be a good fit for you",
+    "loading_fit": "Generating a personalized explanation...",
+    "fit_error": "Could not load explanation.",
+    "fit_fallback": "We could not generate an explanation right now."
   }
 }

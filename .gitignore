@@ -1,0 +1,25 @@
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Serverless platform folders (if you use them later)
+.netlify/
+.vercel/
+functions/node_modules/

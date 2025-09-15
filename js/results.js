@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   chosen = {
     field: params.get("field") || "",
     degree: params.get("degree") || "",
-    budget: Number(params.get("budget") ?? Number.MAX_SAFE_INTEGER)
+    budget: Number(params.get("budget") ?? Number.MAX_SAFE_INTEGER),
+    goals: params.get("goals") || ""
   };
 
   renderChips(chosen);
@@ -103,7 +104,7 @@ function cardHTML(c) {
       </ul>
       <p class="course-desc">${desc || ""}</p>
       <div class="actions" style="margin-top:12px">
-        <a href="detail.html?id=${c.id}" class="cta-link" data-i18n="results.more">
+        <a href="detail.html?id=${c.id}&goals=${encodeURIComponent(chosen.goals || "")}" class="cta-link">
           ${I18N.t("results.view_details", "View details")}
         </a>
       </div>

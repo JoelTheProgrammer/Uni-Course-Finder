@@ -42,6 +42,12 @@
   "more": "Više informacija",
   "apply": "Prijavi se",
   "back": "Natrag na rezultate",
-  "noReqs": "Nema posebnih uslova za ovaj program."
+  "noReqs": "Nema posebnih uslova za ovaj program.",
+  "jobs": "To Do",
+  "noJobs": "Nema navedenih poslova.",
+  "fit": "Dobro fit za tebe",
+  "loading_fit": "Pripremamo personalizovano objašnjenje...",
+  "fit_error": "Nismo mogli da učitamo objašnjenje.",
+  "fit_fallback": "Trenutno ne možemo da generišemo objašnjenje."
   }
 }
