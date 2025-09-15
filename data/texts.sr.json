@@ -32,7 +32,8 @@
     "empty": "Nema rezultata za ove filtere. Probaj sa većim budžetom ili širim područjem.",
     "location": "Lokacija",
     "tuition": "Školarina",
-    "language": "Jezik"
+    "language": "Jezik",
+    "view_details": "govorim details"
   },
   "detail": {
   "title": "Detalji programa",

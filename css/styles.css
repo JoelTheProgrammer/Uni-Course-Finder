@@ -121,9 +121,10 @@ textarea {
   appearance: none;
   height: 8px;
   border-radius: 6px;
-  background: #eee;
+  background: linear-gradient(to right, var(--brand) 0%, var(--brand) 0%, #eee 0%, #eee 100%);
   outline: none;
 }
+
 
 #budget::-webkit-slider-thumb {
   appearance: none;
@@ -277,3 +278,9 @@ textarea {
 .cta-link:hover {
   background: var(--brand-pressed);
 }
+
+.chip.field-cs { background: #1b2d96; color: #fff; }
+.chip.field-business { background: #dd9600; color: #fff; }
+.chip.field-design { background: #5a1196; color: #fff; }
+.chip.field-languages_and_communication { background: #2cbed3; color: #fff; }
+

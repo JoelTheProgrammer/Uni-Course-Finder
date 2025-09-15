@@ -1,7 +1,8 @@
 [
   {
     "id": "cs-bachelor-640",
-    "name": "Information Technologies (IT)",
+    "en_title": "Information Technologies (IT)",
+    "sr_title": "To DO",
     "field": "cs",
     "degree": "bachelor",
     "tuition": 2990,
@@ -24,7 +25,8 @@
   },
   {
     "id": "engineering-bachelor-600",
-    "name": "Software Engineering",
+    "en_title": "Software Engineering",
+    "sr_title": "To DO",
     "field": "cs",
     "degree": "bachelor",
     "tuition": 2990,
@@ -47,7 +49,8 @@
   },
   {
     "id": "cs-bachelor-930",
-    "name": "Game Development",
+    "en_title": "Game Development",
+    "sr_title": "To DO",
     "field": "cs",
     "degree": "bachelor",
     "tuition": 2990,
@@ -70,7 +73,8 @@
   },
   {
     "id": "engineering-bachelor-100",
-    "name": "Engineering and Operational Management",
+    "en_title": "Engineering and Operational Management",
+    "sr_title": "To DO",
     "field": "business",
     "degree": "bachelor",
     "tuition": 2490,
@@ -93,7 +97,8 @@
   },
   {
     "id": "business-bachelor-147",
-    "name": "Digital Business and Marketing",
+    "en_title": "Digital Business and Marketing",
+    "sr_title": "To DO",
     "field": "business",
     "degree": "bachelor",
     "tuition": 2490,
@@ -116,7 +121,8 @@
   },
   {
     "id": "design-bachelor-233",
-    "name": "Graphic Design",
+    "en_title": "Graphic Design",
+    "sr_title": "To DO",
     "field": "design",
     "degree": "bachelor",
     "tuition": 3990,
@@ -139,7 +145,8 @@
   },
   {
     "id": "design-bachelor-204",
-    "name": "Interactive Media Design",
+    "en_title": "Interactive Media Design",
+    "sr_title": "To DO",
     "field": "design",
     "degree": "bachelor",
     "tuition": 3990,
@@ -162,7 +169,8 @@
   },
   {
     "id": "design-bachelor-527",
-    "name": "Fashion Design",
+    "en_title": "Fashion Design",
+    "sr_title": "To DO",
     "field": "design",
     "degree": "bachelor",
     "tuition": 4290,
@@ -185,8 +193,9 @@
   },
   {
     "id": "business-bachelor-463",
-    "name": "English for Business",
-    "field": "Languages and Communication",
+    "en_title": "English for Business",
+    "sr_title": "To DO",
+    "field": "languages_and_communication",
     "degree": "bachelor",
     "tuition": 2290,
     "location": "Beograd, Niš, Online",
@@ -206,7 +215,8 @@
   },
   {
     "id": "cs-master-498",
-    "name": "Intelligent and Advanced Software Systems",
+    "en_title": "Intelligent and Advanced Software Systems",
+    "sr_title": "To DO",
     "field": "cs",
     "degree": "master",
     "tuition": 2990,
@@ -225,7 +235,8 @@
   },
   {
     "id": "engineering-master-91",
-    "name": "INFORMATION TECHNOLOGY AND SYSTEMS\nSpecialization 1: Business Informational Systems ",
+    "en_title": "INFORMATION TECHNOLOGY AND SYSTEMS\nSpecialization 1: Business Informational Systems ",
+    "sr_title": "To DO",
     "field": "cs",
     "degree": "master",
     "tuition": 2990,
@@ -240,7 +251,8 @@
   },
   {
     "id": "engineering-master-23",
-    "name": "INFORMATION TECHNOLOGY AND SYSTEMS\nSpecialization 2: Cybersecurity",
+    "en_title": "INFORMATION TECHNOLOGY AND SYSTEMS\nSpecialization 2: Cybersecurity",
+    "sr_title": "To DO",
     "field": "cs",
     "degree": "master",
     "tuition": 2990,
@@ -255,7 +267,8 @@
   },
   {
     "id": "business-master-292",
-    "name": "Digital Business",
+    "en_title": "Digital Business",
+    "sr_title": "To DO",
     "field": "business",
     "degree": "master",
     "tuition": 2990,
@@ -274,7 +287,8 @@
   },
   {
     "id": "business-master-564",
-    "name": "Visual Communication\n",
+    "en_title": "Visual Communication\n",
+    "sr_title": "To DO",
     "field": "business",
     "degree": "master",
     "tuition": 3690,
@@ -289,7 +303,8 @@
   },
   {
     "id": "business-master-608",
-    "name": "Music Production",
+    "en_title": "Music Production",
+    "sr_title": "To DO",
     "field": "business",
     "degree": "master",
     "tuition": 4500,

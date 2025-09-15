@@ -1,11 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Budget output formatting
+  // Budget output + slider fill
   const budget = document.getElementById("budget");
   const out = document.getElementById("budgetOut");
   const format = v => `€${Number(v).toLocaleString(undefined)}`;
-  const updateBudget = () => { out.value = format(budget.value); };
+
+  function updateBudget() {
+    // update the output text
+    out.value = format(budget.value);
+
+    // update the slider background fill
+    const min = +budget.min;
+    const max = +budget.max;
+    const val = +budget.value;
+    const percent = ((val - min) / (max - min)) * 100;
+    budget.style.background = `linear-gradient(to right, var(--brand) 0%, var(--brand) ${percent}%, #eee ${percent}%, #eee 100%)`;
+  }
+
   budget.addEventListener("input", updateBudget);
-  updateBudget();
+  updateBudget(); // initialize on page load
 
   // Handle form submit
   document.getElementById("finderForm").addEventListener("submit", e => {

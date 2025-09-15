@@ -83,26 +83,32 @@ function renderError(message) {
 
 function cardHTML(c) {
   const tuition = `€${Number(c.tuition).toLocaleString()}`;
-  const desc = (localStorage.getItem("lang") || "en") === "sr" ? c.sr_desc : c.en_desc;
+  const lang = localStorage.getItem("lang") || "en";
+  const desc = lang === "sr" ? c.sr_desc : c.en_desc;
+  const title = lang === "sr" ? c.sr_title : c.en_title;
 
   return `
     <article class="course">
       <div class="course-head">
-        <h2 class="course-title">${c.name}</h2>
+        <h2 class="course-title">${title}</h2>
         <div class="course-badges">
-          <span class="chip">${I18N.t(`fields.${c.field}`, c.field)}</span>
-          <span class="chip">${I18N.t(`degrees.${c.degree}`, c.degree)}</span>
+          <span class="chip field-${c.field}">${I18N.t("fields." + c.field, c.field)}</span>
+          <span class="chip">${I18N.t("degrees." + c.degree, c.degree)}</span>
         </div>
       </div>
       <ul class="course-meta">
-        <li><strong data-i18n="results.location">📍 ${I18N.t("results.location", "📍 Location")}</strong>: ${c.location}</li>
-        <li><strong data-i18n="results.tuition">💰 ${I18N.t("results.tuition", "💰 Tuition")}</strong>: ${tuition}</li>
-        <li><strong data-i18n="results.language">💬 ${I18N.t("results.language", "💬 Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
+        <li><strong data-i18n="results.location">${I18N.t("results.location", "📍 Location")}</strong>: ${c.location}</li>
+        <li><strong data-i18n="results.tuition">${I18N.t("results.tuition", "💰 Tuition")}</strong>: ${tuition}</li>
+        <li><strong data-i18n="results.language">${I18N.t("results.language", "💬 Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
       </ul>
       <p class="course-desc">${desc || ""}</p>
       <div class="actions" style="margin-top:12px">
-        <a href="detail.html?id=${c.id}" class="cta-link" data-i18n="results.more">View details</a>
+        <a href="detail.html?id=${c.id}" class="cta-link" data-i18n="results.more">
+          ${I18N.t("results.view_details", "View details")}
+        </a>
       </div>
     </article>
   `;
 }
+
+

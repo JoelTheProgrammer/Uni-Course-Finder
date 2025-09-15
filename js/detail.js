@@ -19,7 +19,8 @@ async function loadCourse() {
     const applyLink = document.getElementById("applyLink");
 
     // title
-    titleEl.textContent = course.name;
+    const title = lang === "sr" ? course.sr_title : course.en_title;
+    titleEl.textContent = title;
 
     // badges
     const badges = [];

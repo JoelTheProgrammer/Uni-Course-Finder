@@ -32,7 +32,8 @@
     "empty": "No programs match your preferences. Try a higher budget or broader field.",
     "location": "Location",
     "tuition": "Tuition",
-    "language": "Language"
+    "language": "Language",
+    "view_details": "View details"
   },
   "detail": {
     "title": "Program details",
