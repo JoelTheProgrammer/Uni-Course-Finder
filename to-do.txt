@@ -12,14 +12,16 @@ To do:
 
 ✔ Change the slider so it highlights the background depending on the value selected.
 
-? Change non-primary CTAs from "full" button to a button with no background and a border.
+Done? Change non-primary CTAs from "full" button to a button with no background and a border.
 
-- Add Careers as a data base for the program recommendations.
+✔ Add Careers as a data base for the program recommendations.
 
-- Implement OpenAI API to merge student career comments with the information about the programs.
+✔ Implement OpenAI API to merge student career comments with the information about the programs.
 
 ✔ Change the background of the .chip depending on the field
     IT: #1b2d96
     Business and Management: #dd9600
     Digital Arts: #5a1196
     Languages and Communication: #2cbed3
+
+- Translate the rest of serbian text (marked with to do)
