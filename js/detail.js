@@ -75,7 +75,7 @@ async function loadCourse() {
 
     // fit explanation (only if goals provided)
     if (goals && fitEl) {
-        fitEl.textContent = I18N.t("detail.loading_fit", "Generating a personalized explanation...");
+        fitEl.innerHTML = `<div class="spinner"></div>`;
         try {
             const lang = localStorage.getItem("lang") || "en";
 

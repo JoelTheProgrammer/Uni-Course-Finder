@@ -284,3 +284,19 @@ textarea {
 .chip.field-design { background: #5a1196; color: #fff; }
 .chip.field-languages_and_communication { background: #2cbed3; color: #fff; }
 
+.spinner {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid var(--brand, #3498db); /* Brand color */
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  animation: spin 1s linear infinite;
+  margin: 16px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
