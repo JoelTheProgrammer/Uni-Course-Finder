@@ -92,7 +92,7 @@ function cardHTML(c) {
     <article class="course">
       <div class="course-head">
         <h2 class="course-title">${title}</h2>
-        <div class="course-badges">
+        <div class="course-badges-result">
           <span class="chip field-${c.field}">${I18N.t("fields." + c.field, c.field)}</span>
           <span class="chip">${I18N.t("degrees." + c.degree, c.degree)}</span>
         </div>

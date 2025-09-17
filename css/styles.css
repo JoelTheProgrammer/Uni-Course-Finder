@@ -219,6 +219,12 @@ textarea {
   flex-wrap: wrap;
 }
 
+.course-badges-result {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .chip {
   display: inline-block;
   padding: 6px 10px;
@@ -347,8 +353,8 @@ textarea {
 }
 
 .course-image img {
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  height: 180px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -410,17 +416,8 @@ textarea {
 }
 
 .program-header-image img {
-  width: 250px;
+  width: 450px;
   height: 180px;
   object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.detail-card {
-  border: 2px solid var(--brand);
-  border-radius: 12px;
-  padding: 24px;
-  background: #fff;
-  margin-bottom: 20px;
+  border-radius: 16px;
 }
