@@ -431,3 +431,20 @@ textarea {
   object-fit: cover;
   border-radius: 16px;
 }
+
+.program-fit-layout {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.program-fit-image img {
+  width: 120px;
+  height: auto;
+}
+
+.program-fit-text {
+  flex: 1;
+  line-height: 1.5;
+}
+
