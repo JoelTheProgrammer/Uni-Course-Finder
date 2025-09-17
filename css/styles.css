@@ -227,7 +227,7 @@ textarea {
   color: #333;
   font-size: 13px;
   border: 1px solid #e6e6ea;
- }
+}
 
 .applied {
   display: flex;
@@ -279,7 +279,7 @@ textarea {
   padding: 14px 16px;
   border: 2px solid #a70532;
   border-radius: 14px;
-  
+
   color: #000000;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -289,14 +289,31 @@ textarea {
   background: var(--brand-pressed);
 }
 
-.chip.field-cs { background: #1b2d96; color: #fff; }
-.chip.field-business { background: #dd9600; color: #fff; }
-.chip.field-design { background: #5a1196; color: #fff; }
-.chip.field-languages_and_communication { background: #2cbed3; color: #fff; }
+.chip.field-cs {
+  background: #1b2d96;
+  color: #fff;
+}
+
+.chip.field-business {
+  background: #dd9600;
+  color: #fff;
+}
+
+.chip.field-design {
+  background: #5a1196;
+  color: #fff;
+}
+
+.chip.field-languages_and_communication {
+  background: #2cbed3;
+  color: #fff;
+}
 
 .spinner {
-  border: 4px solid #f3f3f3; /* Light grey */
-  border-top: 4px solid var(--brand, #3498db); /* Brand color */
+  border: 4px solid #f3f3f3;
+  /* Light grey */
+  border-top: 4px solid var(--brand, #3498db);
+  /* Brand color */
   border-radius: 50%;
   width: 28px;
   height: 28px;
@@ -305,16 +322,105 @@ textarea {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .program-fit {
-  border:solid 3px #a70532;
-  padding:10px;
-  padding-left:30px;
-  padding-right:30px;
+  border: solid 3px #a70532;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   border-radius: 16px;
 }
 
+.course-layout {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 12px;
+}
 
+.course-image img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.course-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.actions-full {
+  margin-top: 16px;
+}
+
+.actions-full .cta-link {
+  display: block;
+  width: 100%;
+}
+
+.program-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.program-image img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.actions-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.actions-row .cta-link,
+.actions-row .cta-link-secondary {
+  flex: 1;
+  /* buttons same width */
+  text-align: center;
+}
+
+.program-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* vertical center alignment */
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.program-header-text {
+  flex: 1;
+  /* take remaining space */
+}
+
+.program-header-image img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detail-card {
+  border: 2px solid var(--brand);
+  border-radius: 12px;
+  padding: 24px;
+  background: #fff;
+  margin-bottom: 20px;
+}

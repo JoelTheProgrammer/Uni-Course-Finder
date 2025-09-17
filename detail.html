@@ -1,10 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title data-i18n="detail.title">Program details</title>
+  <meta charset="UTF-8" />
+  <title data-i18n="detail.page_title">Program details</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
@@ -18,43 +17,50 @@
     </div>
   </header>
 
-  <main>
-    <section class="card container">
-      <!-- title + badges -->
-      <h1 id="programTitle">Program title</h1>
-      <div class="course-badges" id="programBadges"></div>
 
-      <!-- description -->
-      <h3 data-i18n="detail.description">About this program</h3>
-      <div id="programDesc" style="margin:16px 0; line-height:1.5"></div>
-
-      <!-- requirements -->
-      <h3 data-i18n="detail.requirements">Requirements</h3>
-      <ul id="programReqs"></ul>
-
-      <!-- fit explanation -->
-      <div class="program-fit">
-      <h3 data-i18n="detail.fit" style="color:#a70532">Why this course could be a good fit for you</h3>
-      <div id="programFit" style="margin:16px 0; line-height:1.5;"></div>
+  <main class="container">
+    <section class="detail-card">
+    <!-- Title + badges + image -->
+    <div class="program-header">
+      <div class="program-header-text">
+        <h1 id="programTitle">Program title</h1>
+        <div class="course-badges" id="programBadges"></div>
       </div>
-
-      <h3 data-i18n="detail.jobs">Possible career paths</h3>
-      <ul id="programJobs"></ul>
-
-
-      <!-- CTA buttons -->
-      <div class="actions field-full" style="margin-top:24px">
-        <b><a id="applyLink" class="cta-link" href="#" target="_blank" data-i18n="detail.apply">Start your
-            application</a></b>
+      <div class="program-header-image">
+        <img id="programImage" src="" alt="Program image" />
       </div>
-      <div class="actions field-full" style="margin-top:12px">
-        <b><a id="infoLink" class="cta-link-secondary" href="#" target="_blank" data-i18n="detail.more">Learn more about
-            the program</a></b>
-      </div>
+    </div>
 
-      <div class="actions field-full" style="margin-top:24px">
-        <a href="results.html" class="cta-link-tertiary" data-i18n="detail.back">Back to results</a>
-      </div>
+    <!-- Description -->
+    <h3 data-i18n="detail.description">About this program</h3>
+    <div id="programDesc" style="margin:16px 0; line-height:1.5"></div>
+
+    <!-- Requirements -->
+    <h3 data-i18n="detail.requirements">Requirements</h3>
+    <ul id="programReqs"></ul>
+
+    <!-- Possible jobs -->
+    <h3 data-i18n="detail.jobs">Possible jobs</h3>
+    <ul id="programJobs"></ul>
+
+    <!-- Fit explanation -->
+    <h3 data-i18n="detail.fit" style="display:none">Why this program fits your goals</h3>
+    <div id="programFit"></div>
+
+    <!-- CTA buttons -->
+    <div class="actions-row">
+      <a id="applyLink" class="cta-link" href="#" target="_blank" data-i18n="detail.apply">
+        Apply now ↗
+      </a>
+      <a id="infoLink" class="cta-link-secondary" href="#" target="_blank" data-i18n="detail.more">
+        More information ↗
+      </a>
+    </div>
+
+    <!-- Back button -->
+    <div class="actions field-full" style="margin-top:24px">
+      <a href="results.html" class="cta-link-tertiary" data-i18n="detail.back">Back to results</a>
+    </div>
     </section>
   </main>
 

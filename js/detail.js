@@ -28,6 +28,7 @@ async function loadCourse() {
     const jobsEl = document.getElementById("programJobs");
     const infoLink = document.getElementById("infoLink");
     const applyLink = document.getElementById("applyLink");
+    const imgEl = document.getElementById("programImage");
     const fitEl = document.getElementById("programFit");
     const fitHeading = document.querySelector('[data-i18n="detail.fit"]');
 
@@ -41,6 +42,12 @@ async function loadCourse() {
     if (course.degree) badges.push(`<span class="chip">${I18N.t("degrees." + course.degree, course.degree)}</span>`);
     if (course.field) badges.push(`<span class="chip field-${course.field}">${I18N.t("fields." + course.field, course.field)}</span>`);
     badgesEl.innerHTML = badges.join("");
+
+    // program image
+    if (imgEl) {
+        imgEl.src = `images/${course.id}.jpg`;
+        imgEl.alt = title;
+    }
 
     // description
     const desc = lang === "sr" ? course.sr_desc_short : course.en_desc_short;
@@ -98,7 +105,6 @@ async function loadCourse() {
 
             // escape HTML, then replace /7 with <br>
             explanation = escapeHTML(explanation).replace(/\/7/g, "<br>");
-
             fitEl.innerHTML = explanation;
         } catch (e) {
             console.error(e);

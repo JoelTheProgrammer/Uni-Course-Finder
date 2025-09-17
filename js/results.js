@@ -97,19 +97,29 @@ function cardHTML(c) {
           <span class="chip">${I18N.t("degrees." + c.degree, c.degree)}</span>
         </div>
       </div>
-      <ul class="course-meta">
-        <li><strong data-i18n="results.location">${I18N.t("results.location", "📍 Location")}</strong>: ${c.location}</li>
-        <li><strong data-i18n="results.tuition">${I18N.t("results.tuition", "💰 Tuition")}</strong>: ${tuition}</li>
-        <li><strong data-i18n="results.language">${I18N.t("results.language", "💬 Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
-      </ul>
-      <p class="course-desc">${desc || ""}</p>
-      <div class="actions" style="margin-top:12px">
-        <b><a href="detail.html?id=${c.id}&goals=${encodeURIComponent(chosen.goals || "")}" class="cta-link">
+
+      <div class="course-layout">
+        <div class="course-image">
+          <img src="images/${c.id}.jpg" alt="${title}" />
+        </div>
+        <div class="course-content">
+          <ul class="course-meta">
+            <li><strong data-i18n="results.location">${I18N.t("results.location", "📍 Location")}</strong>: ${c.location}</li>
+            <li><strong data-i18n="results.tuition">${I18N.t("results.tuition", "💰 Tuition")}</strong>: ${tuition}</li>
+            <li><strong data-i18n="results.language">${I18N.t("results.language", "💬 Language")}</strong>: ${String(c.language || "").toUpperCase()}</li>
+          </ul>
+          <p class="course-desc">${desc || ""}</p>
+        </div>
+      </div>
+
+      <div class="actions actions-full">
+        <a href="detail.html?id=${c.id}&goals=${encodeURIComponent(chosen.goals || "")}" class="cta-link">
           ${I18N.t("results.view_details", "View details")}
-        </a></b>
+        </a>
       </div>
     </article>
   `;
 }
+
 
 
