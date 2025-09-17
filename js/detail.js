@@ -1,6 +1,12 @@
 // js/detail.js
 const API_BASE = "http://localhost:3000"; // backend base URL
 
+function escapeHTML(str) {
+    const div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
+}
+
 async function loadCourse() {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
@@ -19,6 +25,7 @@ async function loadCourse() {
     const badgesEl = document.getElementById("programBadges");
     const descEl = document.getElementById("programDesc");
     const reqsEl = document.getElementById("programReqs");
+    const jobsEl = document.getElementById("programJobs");
     const infoLink = document.getElementById("infoLink");
     const applyLink = document.getElementById("applyLink");
     const fitEl = document.getElementById("programFit");
@@ -42,22 +49,17 @@ async function loadCourse() {
     // requirements
     reqsEl.innerHTML = "";
     const reqs = lang === "sr" ? course.sr_req : course.en_req;
-
     if (Array.isArray(reqs) && reqs.length > 0) {
         reqsEl.innerHTML = reqs.map(r => `<li>${r}</li>`).join("");
     } else if (typeof reqs === "string" && reqs.trim()) {
-        // fallback if some entries are still plain strings
         reqsEl.innerHTML = `<li>${reqs}</li>`;
     } else {
         reqsEl.innerHTML = `<li data-i18n="detail.noReqs">${I18N.t("detail.noReqs", "No specific requirements listed.")}</li>`;
     }
 
-    const jobsEl = document.getElementById("programJobs");
-
     // jobs
     jobsEl.innerHTML = "";
     const jobs = lang === "sr" ? course.sr_jobs : course.en_jobs;
-
     if (Array.isArray(jobs) && jobs.length > 0) {
         jobsEl.innerHTML = jobs.map(j => `<li>${j}</li>`).join("");
     } else if (typeof jobs === "string" && jobs.trim()) {
@@ -81,8 +83,6 @@ async function loadCourse() {
             I18N.t("detail.loading_fit", "Generating a personalized explanation...") +
             '</p>';
         try {
-            const lang = localStorage.getItem("lang") || "en";
-
             const resp = await fetch(`${API_BASE}/explain`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -94,28 +94,30 @@ async function loadCourse() {
             });
 
             const data = await resp.json();
-            fitEl.textContent = data.explanation || I18N.t("detail.fit_fallback", "We could not generate an explanation right now.");
+            let explanation = data.explanation || I18N.t("detail.fit_fallback", "We could not generate an explanation right now.");
+
+            // escape HTML, then replace /7 with <br>
+            explanation = escapeHTML(explanation).replace(/\/7/g, "<br>");
+
+            fitEl.innerHTML = explanation;
         } catch (e) {
             console.error(e);
             fitEl.textContent = I18N.t("detail.fit_error", "Could not load explanation.");
         }
         if (fitHeading) fitHeading.style.display = "";
     } else {
-        // hide the section if no goals were passed
         if (fitHeading) fitHeading.style.display = "none";
         if (fitEl) fitEl.style.display = "none";
     }
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-    // load saved language first
     const lang = localStorage.getItem("lang") || "en";
     if (typeof I18N?.load === "function") {
         await I18N.load(lang);
     }
     loadCourse();
 
-    // language switcher
     document.querySelectorAll(".lang-btn").forEach(btn => {
         btn.addEventListener("click", async () => {
             const lang = btn.dataset.lang;
@@ -123,7 +125,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (typeof I18N?.load === "function") {
                 await I18N.load(lang);
             }
-            loadCourse(); // reload content and refetch explanation
+            loadCourse();
         });
     });
 });
