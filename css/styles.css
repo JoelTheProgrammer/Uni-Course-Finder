@@ -3,8 +3,8 @@
   --card: #fff;
   --text: #1b1b1f;
   --muted: #5b5b66;
-  --brand: #b0004f;
-  --brand-pressed: #910043;
+  --brand: #a70532;
+  --brand-pressed: #a70532;
   --radius: 16px;
 }
 
@@ -70,6 +70,12 @@ h1 {
   margin: 0 0 24px;
   color: var(--muted);
   font-size: 18px;
+}
+
+.sub_filters {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .grid {
@@ -149,7 +155,7 @@ textarea {
   margin-top: 6px;
   color: var(--muted);
   align-self: center;
-  color: #b0004f;
+  color: #a70532;
 }
 
 .actions {
@@ -181,13 +187,15 @@ textarea {
 .results-list {
   display: grid;
   gap: 16px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .course {
-  border: 1px solid #eee;
+  border: 1px solid #b26c8b;
   background: #fff;
   border-radius: 14px;
-  padding: 16px;
+  padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -206,6 +214,8 @@ textarea {
 .course-badges {
   display: flex;
   gap: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   flex-wrap: wrap;
 }
 
@@ -267,7 +277,7 @@ textarea {
   width: 100%;
   text-align: center;
   padding: 14px 16px;
-  border: 2px solid #b0004f;
+  border: 2px solid #a70532;
   border-radius: 14px;
   
   color: #000000;
@@ -297,6 +307,14 @@ textarea {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.program-fit {
+  border:solid 3px #a70532;
+  padding:10px;
+  padding-left:30px;
+  padding-right:30px;
+  border-radius: 16px;
 }
 
 

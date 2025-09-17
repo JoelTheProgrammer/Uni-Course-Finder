@@ -36,7 +36,7 @@ async function loadCourse() {
     badgesEl.innerHTML = badges.join("");
 
     // description
-    const desc = lang === "sr" ? course.sr_desc : course.en_desc;
+    const desc = lang === "sr" ? course.sr_desc_short : course.en_desc_short;
     descEl.innerText = desc;
 
     // requirements
@@ -75,7 +75,11 @@ async function loadCourse() {
 
     // fit explanation (only if goals provided)
     if (goals && fitEl) {
-        fitEl.innerHTML = `<div class="spinner"></div>`;
+        fitEl.innerHTML =
+            '<div class="spinner"></div>' +
+            '<p style="text-align:center; font-size:0.9em; margin-top:8px;">' +
+            I18N.t("detail.loading_fit", "Generating a personalized explanation...") +
+            '</p>';
         try {
             const lang = localStorage.getItem("lang") || "en";
 

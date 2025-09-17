@@ -85,7 +85,7 @@ function renderError(message) {
 function cardHTML(c) {
   const tuition = `€${Number(c.tuition).toLocaleString()}`;
   const lang = localStorage.getItem("lang") || "en";
-  const desc = lang === "sr" ? c.sr_desc : c.en_desc;
+  const desc = lang === "sr" ? c.sr_desc_short : c.en_desc_short;
   const title = lang === "sr" ? c.sr_title : c.en_title;
 
   return `
@@ -104,9 +104,9 @@ function cardHTML(c) {
       </ul>
       <p class="course-desc">${desc || ""}</p>
       <div class="actions" style="margin-top:12px">
-        <a href="detail.html?id=${c.id}&goals=${encodeURIComponent(chosen.goals || "")}" class="cta-link">
+        <b><a href="detail.html?id=${c.id}&goals=${encodeURIComponent(chosen.goals || "")}" class="cta-link">
           ${I18N.t("results.view_details", "View details")}
-        </a>
+        </a></b>
       </div>
     </article>
   `;

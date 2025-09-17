@@ -23,8 +23,8 @@ app.post("/explain", async (req, res) => {
 
     const systemPrompt =
       lang === "sr"
-        ? "You are an academic advisor. Answer in Serbian."
-        : "You are an academic advisor. Answer in English.";
+        ? "You are an academic advisor. Answer in Serbian using simple words. The result should be max 5 sentences. Use a /7 for each list item."
+        : "You are an academic advisor. Answer in English using simple language. The result should be max 5 sentences. Each sentence should be max 10 words. Use a /7 for each list item.";
 
     const response = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
