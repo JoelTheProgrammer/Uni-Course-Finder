@@ -24,20 +24,20 @@ Done? Change non-primary CTAs from "full" button to a button with no background 
     Digital Arts: #5a1196
     Languages and Communication: #2cbed3
 
-- Translate the rest of serbian text (marked with to do)
+✔ Translate the rest of serbian text (marked with to do)
 
-- Change "language_and_communication" tag so its an actual name
+✔ Change "language_and_communication" tag so its an actual name
 
-- Add /7 as a breakpoint for lines.
+✔ Add /7 as a breakpoint for lines.
 
-- Add image module on the results page. It should be on the right side of a 2-column hero section (everything above the program "requirements" section).
+✔ Add image module on the results page. It should be on the right side of a 2-column hero section (everything above the program "requirements" section).
 
-- Add image module on the results listing page. It should be on the right side of a 2-column hero section (everything above the program "requirements" section).
+✔ Add image module on the results listing page. It should be on the right side of a 2-column hero section (everything above the program "requirements" section).
 
-- Make 2 main buttons parallel, where the Primary CTA is on the right.
+✔ Make 2 main buttons parallel, where the Primary CTA is on the right.
 
-- Add 2 columns (30/70 split) for the "MET match" module (image uploaded to the shared server)
+✔ Add 2 columns (30/70 split) for the "MET match" module (image uploaded to the shared server)
 
-- Change the background of the .chip depending on the field
+✔ Change the background of the .chip depending on the field
     Bachelor's studies: #000000
     Master's studies: #a70532

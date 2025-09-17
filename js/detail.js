@@ -39,7 +39,7 @@ async function loadCourse() {
     // badges
     const badges = [];
     if (course.tuition) badges.push(`<span class="chip">€${course.tuition}</span>`);
-    if (course.degree) badges.push(`<span class="chip">${I18N.t("degrees." + course.degree, course.degree)}</span>`);
+    if (course.degree) badges.push(`<span class="chip degree-${course.degree}">${I18N.t("degrees." + course.degree, course.degree)}</span>`);
     if (course.field) badges.push(`<span class="chip field-${course.field}">${I18N.t("fields." + course.field, course.field)}</span>`);
     badgesEl.innerHTML = badges.join("");
 

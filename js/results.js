@@ -94,7 +94,7 @@ function cardHTML(c) {
         <h2 class="course-title">${title}</h2>
         <div class="course-badges-result">
           <span class="chip field-${c.field}">${I18N.t("fields." + c.field, c.field)}</span>
-          <span class="chip">${I18N.t("degrees." + c.degree, c.degree)}</span>
+          <span class="chip degree-${c.degree}">${I18N.t("degrees." + c.degree, c.degree)}</span>
         </div>
       </div>
 

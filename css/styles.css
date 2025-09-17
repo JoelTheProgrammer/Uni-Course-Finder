@@ -315,6 +315,16 @@ textarea {
   color: #fff;
 }
 
+.chip.degree-bachelor {
+  background: #000000;
+  color: #fff;
+}
+
+.chip.degree-master {
+  background: #a70532;
+  color: #fff;
+}
+
 .spinner {
   border: 4px solid #f3f3f3;
   /* Light grey */
