@@ -20,47 +20,48 @@
 
   <main class="container">
     <section class="detail-card">
-    <!-- Title + badges + image -->
-    <div class="program-header">
-      <div class="program-header-text">
-        <h1 id="programTitle">Program title</h1>
-        <div class="course-badges" id="programBadges"></div>
+      <!-- Title + badges + image -->
+      <div class="program-header">
+        <div class="program-header-text">
+          <h1 id="programTitle">Program title</h1>
+          <div class="course-badges" id="programBadges"></div>
+        </div>
+        <div class="program-header-image">
+          <img id="programImage" src="" alt="Program image" />
+        </div>
       </div>
-      <div class="program-header-image">
-        <img id="programImage" src="" alt="Program image" />
+
+      <!-- Description -->
+      <h3 data-i18n="detail.description">About this program</h3>
+      <div id="programDesc" style="margin:16px 0; line-height:1.5"></div>
+
+      <!-- Requirements -->
+      <h3 data-i18n="detail.requirements">Requirements</h3>
+      <ul id="programReqs"></ul>
+
+      <!-- Fit explanation -->
+      <h3 data-i18n="detail.fit" style="display:none">Why this program fits your goals</h3>
+      <div id="programFit"></div>
+
+
+      <!-- Possible jobs -->
+      <h3 data-i18n="detail.jobs">Possible jobs</h3>
+      <ul id="programJobs"></ul>
+
+      <!-- CTA buttons -->
+      <div class="actions-row">
+        <a id="applyLink" class="cta-link" href="#" target="_blank" data-i18n="detail.apply">
+          Apply now ↗
+        </a>
+        <a id="infoLink" class="cta-link-secondary" href="#" target="_blank" data-i18n="detail.more">
+          More information ↗
+        </a>
       </div>
-    </div>
 
-    <!-- Description -->
-    <h3 data-i18n="detail.description">About this program</h3>
-    <div id="programDesc" style="margin:16px 0; line-height:1.5"></div>
-
-    <!-- Requirements -->
-    <h3 data-i18n="detail.requirements">Requirements</h3>
-    <ul id="programReqs"></ul>
-
-    <!-- Possible jobs -->
-    <h3 data-i18n="detail.jobs">Possible jobs</h3>
-    <ul id="programJobs"></ul>
-
-    <!-- Fit explanation -->
-    <h3 data-i18n="detail.fit" style="display:none">Why this program fits your goals</h3>
-    <div id="programFit"></div>
-
-    <!-- CTA buttons -->
-    <div class="actions-row">
-      <a id="applyLink" class="cta-link" href="#" target="_blank" data-i18n="detail.apply">
-        Apply now ↗
-      </a>
-      <a id="infoLink" class="cta-link-secondary" href="#" target="_blank" data-i18n="detail.more">
-        More information ↗
-      </a>
-    </div>
-
-    <!-- Back button -->
-    <div class="actions field-full" style="margin-top:24px">
-      <a href="results.html" class="cta-link-tertiary" data-i18n="detail.back">Back to results</a>
-    </div>
+      <!-- Back button -->
+      <div class="actions field-full" style="margin-top:24px">
+        <a href="results.html" class="cta-link-tertiary" data-i18n="detail.back">Back to results</a>
+      </div>
     </section>
   </main>
 
